@@ -19,7 +19,7 @@ api = twitter.Api(consumer_key,
 list = api.GetUserTimeline(user_id=id, screen_name=full_name, include_rts = False)
 
 def sendTweet():
-   stri = " Currently, the long-term climate of planet earth is approximately + " str(temperature()).replace(".", ",") + "°C warmer than it was on average from 1880-1920."
+   stri = "Currently, the long-term climate of planet earth is approximately " + str(temperature()).replace(".",",") + "°C warmer than it was on average from 1880-1920."
    print "Sending: " + stri
    api.PostUpdate(stri)
    print "Sleeping for 4 hours..."
