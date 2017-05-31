@@ -1,8 +1,8 @@
 from time import *
 
-start_time = 1483225200
+start_time = 1483138800
 
-start=1.0625;
+start=1.0876;
 increase= 0.0199;
 
 def temperature():
